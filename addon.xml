@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="webinterface.introspect"
+	version="0.0.1"
+	name="Introspect"
+	provider-name="bailus">
+	<requires>
+		<import addon="xbmc.json" version="6.0.0"/>
+	</requires>
+	<extension point="xbmc.webinterface"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<source>https://github.com/bailus/kodi-introspect</source>
+
+		<summary lang="en">
+			Displays the introspect from Kodi's JSONRPC interface.
+		</summary>
+
+	</extension>
+</addon>
